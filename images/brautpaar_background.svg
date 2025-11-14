@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff9f4"/>
+      <stop offset="50%" stop-color="#f6efe8"/>
+      <stop offset="100%" stop-color="#efe6dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+
+  <!-- Simple decorative couple silhouette (stylised shapes) -->
+  <g transform="translate(200,160) scale(1.2)" fill="none" stroke="#d3b18a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- heads -->
+    <circle cx="500" cy="200" r="40" fill="#e9d6c2" stroke="#c69b6a" stroke-width="6"/>
+    <circle cx="640" cy="210" r="36" fill="#e9d6c2" stroke="#c69b6a" stroke-width="6"/>
+    <!-- bodies -->
+    <path d="M500 240 q-20 40 -10 120 q8 60 40 120 q20 40 60 0 q32 -60 40 -120 q10 -80 -10 -120" fill="#fff" stroke="#d3b18a"/>
+    <path d="M640 246 q15 36 8 100 q-6 46 -26 92 q-14 34 10 54 q26 22 56 -8 q32 -32 36 -86 q6 -78 -16 -152" fill="#f3e9e0" stroke="#d3b18a"/>
+  </g>
+
+  <!-- Subtle ornamental heart -->
+  <g transform="translate(1100,120) scale(1.0)">
+    <path d="M40 80 C 20 20, 80 0, 100 40 C 120 0, 180 20, 160 80 C 140 140, 100 160, 100 160 C 100 160, 60 140, 40 80 Z" fill="#e7b9a1" opacity="0.9"/>
+  </g>
+
+  <!-- Soft vignette -->
+  <radialGradient id="v" cx="50%" cy="40%" r="60%">
+    <stop offset="50%" stop-color="rgba(255,255,255,0)"/>
+    <stop offset="100%" stop-color="rgba(0,0,0,0.05)"/>
+  </radialGradient>
+  <rect width="100%" height="100%" fill="url(#v)"/>
+
+  <!-- Small caption text to indicate placeholder -->
+  <text x="50" y="860" font-family="Didot, Bodoni, serif" font-size="22" fill="#b89a78">Brautpaar Hintergrund (Platzhalter)</text>
+</svg>
